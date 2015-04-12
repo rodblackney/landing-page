@@ -3,6 +3,8 @@
    License: none (public domain)
 */
 
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,300,400italic,500,500italic);
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -30,6 +32,7 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+	font-family: 'Roboto', sans-serif;
 }
 ol, ul {
 	list-style: none;
@@ -47,21 +50,38 @@ table {
 	border-spacing: 0;
 }
 
-body {
-    background-color: LightGray;
-}
-div {
-    border: 1px solid Chocolate;
-}
+/* top-navigation */
 
-h1 {
-	color: red;
+.content {
+	padding: 0 0.960rem;
+	margin: 0 auto;
+	min-width: 37.5rem;
 }
 
-h2 {
-	color:green;
+.top-navigation {
+	height: 4.375rem;
+	background-color: white;
+	position: fixed;
+	width: 100%;
+	border-bottom: 1px solid #DDD;
+	z-index: 9999;
 }
 
+.top-navigation .links {
+	color: #838994;
+	float: right;
+	font-size: 1.04rem;
+	margin-top: 1.7rem;
+}
 
+.top-navigation .links li.active {
+	color: #4c5058;
+	font-weight: 500;
+}
+
+.top-navigation .links li {
+	display: inline-block;
+	margin-left: 1.563rem;
+}
 
 
