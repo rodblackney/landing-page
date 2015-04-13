@@ -52,6 +52,12 @@ table {
 
 /* top-navigation */
 
+.top-navigation > .content {
+    width: 970px;
+    height: 70px;
+    margin: 0 auto;
+}
+
 .content {
   padding: 0 0.938rem;
   margin: 0 auto;
