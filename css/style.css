@@ -58,7 +58,7 @@ table {
 /* top-navigation */
 
 .top-navigation > .content {
-    width: 970px;
+    width: 736px;
     height: 70px;
     margin: 0 auto;
 }
@@ -102,13 +102,6 @@ table {
 
 /* introduction */
 
-
-.content {
-	padding: 0 0.938rem;
-  	margin: 0 auto;
-  	min-width: 37.5rem;
-}
-
 .introduction {
 	background-image: url('../img/first-background.jpg');
 	background-position: center bottom;
@@ -120,12 +113,12 @@ table {
 
 .introduction h1 {
 	margin-top: 17.5rem;
-  	font-size: 3.125rem;
+	font-size: 3.125rem;
 }
 
 .introduction h3 {
 	margin-top: 1.25rem;
-  	font-size: 1.563rem;
+  	font-size: 1.523rem;
 }
 
 .introduction h1, .introduction h3 {
@@ -146,7 +139,16 @@ button {
   padding: 1rem 1.5rem;
   color: white;
   font-size: 1.125rem;
+  display: block;
+  margin:20px auto;
 }
+
+button:hover {
+	background-color: #d7411e;
+	cursor: pointer;
+}
+
+
 
 
 
