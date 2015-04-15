@@ -24,6 +24,7 @@ time, mark, audio, video {
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
+	  -webkit-font-smoothing: antialiased;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
@@ -130,17 +131,16 @@ table {
 }
 
 button {
-  width: 9.688rem;
-  background-color: #f15a29;
-  border-color: #f15a29;
-  text-shadow: none;
-  border-style: none;
-  border-radius: 4px;
-  padding: 1rem 1.5rem;
-  color: white;
-  font-size: 1.125rem;
-  display: block;
-  margin:20px auto;
+  background-color: transparent;
+  border: 2px solid #ff6600;
+  border-radius: 5px;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  color: #ff6600;
+  font-weight: 600;
+  outline: 0;
+  padding: 10px 20px;
+  white-space: normal;
 }
 
 button:hover {
@@ -179,6 +179,61 @@ button:hover {
   font-weight: 400;
   font-size: 1.563rem;
   margin: 2.5rem 0px 1.875rem;
+	color: #1d1e21;
+}
+
+/* footer */
+
+.fa {
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+}
+
+.social .icons > li {
+  border-radius: 1.25rem;
+  width: 2.5rem;
+  height: 2.5rem;
+  display: inline-block;
+  margin: 1.25rem 5px;
+  border: 1px solid #eaebec;
+  padding: 0.625rem 0;
+  text-align: center;
+}
+
+.social .twitter {
+  color: #55acee;
+}
+
+.social .instagram {
+  color: #55acee;
+}
+
+.social .facebook {
+  color: #55acee;
+}
+.social hr {
+  border: 0;
+  border-top: 1px solid #eaebec;
+  margin: 1.313rem 0;
+}
+
+.social {
+  background-color: #fff;
+  overflow: auto;
+  padding-bottom: 9.375rem;
+  text-align: center;
+}
+
+.social .copy {
+  font-size: 0.9rem;
+  font-weight: 300;
+  color: #838994;
+}
+
+.social h5 {
+	display: block;
 	color: #1d1e21;
 }
 
