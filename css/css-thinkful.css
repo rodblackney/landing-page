@@ -65,7 +65,6 @@ div {
     border-bottom: 1px solid #DDD;
     z-index: 9999;
 }
-
 .top-navigation > .content {
     height: 4.375rem;
 }
@@ -78,7 +77,6 @@ div {
     font-size: 1.04rem;
     margin-top: 1.7rem;
 }
-
 .top-navigation .links li {
     display: inline-block;
     margin-left: 1.563rem;
