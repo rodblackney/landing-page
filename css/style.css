@@ -1,4 +1,4 @@
-html, body, div, span, applet, object, iframe,
+    html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
 del, dfn, em, img, ins, kbd, q, s, samp,
@@ -19,9 +19,6 @@ time, mark, audio, video {
     vertical-align: baseline;
     box-sizing: border-box;
 }
-/**
- * HTML5 display-role reset for older browsers
- */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
     display: block;
@@ -32,19 +29,13 @@ body {
 ol, ul {
     list-style: none;
 }
-/**
- * End of Reset
- */
-/**
- * Start of Custom Styles
- */
+
 body {
-    /*background-color: LightGray;*/
     font-family: 'Roboto', sans-serif;
     -webkit-font-smoothing: antialiased;
 }
 div {
-    /*border: 1px solid Chocolate;*/
+
 }
 .content {
     padding: 0 0.938rem;
@@ -54,10 +45,7 @@ div {
 :focus {
     outline: none;
 }
-
-/**
- * Navigation Section
- */
+/* -- navigation section -- */
 .top-navigation {
     background-color: #fff;
     position: fixed;
@@ -69,9 +57,11 @@ div {
 .top-navigation > .content {
     height: 4.375rem;
 }
+
 .top-navigation .logo {
     height: 4.375rem;
 }
+
 .top-navigation .links {
     float: right;
     color: #838994;
@@ -83,18 +73,18 @@ div {
     display: inline-block;
     margin-left: 1.563rem;
 }
+
 .top-navigation .links li.active {
     color: #4c5058;
     font-weight: 500;
 }
+
 .top-navigation .links li:hover {
     cursor: pointer;
     color: #333333;
 }
 
-/**
- * Introduction Section
- */
+/* -- introduction section -- */
 .introduction {
     background-image: url('../img/first-background.jpg');
     background-position: center bottom;
@@ -103,28 +93,23 @@ div {
     height: 45.938rem;
     overflow: auto;
 }
-.introduction h1,
-.introduction h3 {
+
+.introduction h1, .introduction h3 {
     color: white;
     text-align: center;
     font-weight: 300;
 }
+
 .introduction h1 {
     margin-top: 17.5rem;
     font-size: 3.125rem;
 }
+
 .introduction h3 {
     margin-top: 1.25rem;
     font-size: 1.563rem;
 }
-/**
- * The buttons
- */
-.introduction .buttons {
-    color: white;
-    text-align: center;
-    margin-top: 1.563rem;
-}
+
 .introduction .half {
     width: 49%;
     padding: 0 0.938rem;
@@ -134,9 +119,14 @@ div {
     line-height: 1.2;
 }
 
-/**
- * The Three Case Images
- */
+.introduction .buttons {
+    color: white;
+    text-align: center;
+    margin-top: 1.563rem;
+}
+
+
+/* -- case section -- */
 .cases {
     background-color: #fff;
     overflow: hidden;
@@ -167,9 +157,7 @@ div {
     font-size: 1.313rem;
 }
 
-/**
- * Footer
- */
+/* -- footer -- */
 .social {
     background-color: #fff;
     overflow: auto;
@@ -209,9 +197,8 @@ div {
     color: #838994;
 }
 
-/**
- * Responsive Design
- */
+
+/* -- responsive -- */
 @media (min-width: 48rem) {
     .content {
         width: 46rem;
@@ -228,21 +215,26 @@ div {
     }
 }
 
-/* Chrome, Safari, Opera */ 
 @-webkit-keyframes bounce {
     0%, 100% {margin-top: 0px;}
     50% {margin-top: 2rem;}
 }
-/* Standard syntax */ 
+
 @keyframes bounce {
     0%, 100% {margin-top: 0px;}
     50% {margin-top: 2rem;}
 }
 
+/* -- buttons -- */
 
-/**
- * button
- */
+.big-button {
+    text-shadow: none;
+    border-style: none;
+    border-radius: 4px;
+    padding: 16px 26px;
+    line-height: 1.33;
+}
+
 button {
     width: 9.688rem;
     background-color: #f15a29;
