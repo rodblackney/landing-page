@@ -94,6 +94,10 @@ div {
     overflow: auto;
 }
 
+.introduction .content {
+    text-align: center;
+}
+
 .introduction h1, .introduction h3 {
     color: white;
     text-align: center;
@@ -245,7 +249,9 @@ button {
     padding: 1rem 1.5rem;
     color: white;
     font-size: 1.125rem;
+    margin-top: 30px;
 }
+
 button:hover {
     background-color: #d9400e;
     border-color: #cf3d0e;
